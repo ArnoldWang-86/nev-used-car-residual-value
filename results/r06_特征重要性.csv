@@ -1,0 +1,16 @@
+﻿特征,重要性,标准差
+age_years,0.17078,0.00072
+log_new_ref,0.04543,0.00037
+series,0.04158,0.00047
+log_mileage,0.03333,0.00022
+power,0.02789,0.00041
+city_name,0.01802,0.00025
+engine_type,0.00576,0.00011
+displacement,0.00497,0.00015
+km_per_year,0.00301,9e-05
+brand,0.0026,0.00013
+body_style,0.0025,7e-05
+drive_mode,0.0024,9e-05
+power_per_l,0.00219,5e-05
+transmission,0.00068,4e-05
+owners,0.00049,3e-05
