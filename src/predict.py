@@ -39,7 +39,7 @@ r"""predict.py —— 残值预测推理接口（命令行 + Python 函数）
                              mileage_wan=6.8, price_wan=33.8), explain=True)
 
 模型来源：src/16_train_final.py 训练并保存到
-output/models/residual_model.joblib（已随仓库提供，无需重训即可直接用）。
+output/models/residual_model.joblib（随交付物提供，无需重训即可直接用）。
 """
 from __future__ import annotations
 

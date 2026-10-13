@@ -1,0 +1,41 @@
+# 机密与个人信息：绝不提交
+.env
+*.key
+*.pem
+_resume/
+*.docx
+
+# 原始与中间数据：体积大，且属第三方/平台数据，不入库
+#   · HuggingFace imbalet/used_cars 清洗后 57 MB（第三方数据集）
+#   · 瓜子二手车详情页缓存与解析结果（平台数据，批量转载不合适）
+#   · 中间预测明细 47 MB
+data/raw/
+data/clean/
+data/interim/
+results/r03_*.csv
+results/n01_*.csv
+results/d01_*.csv
+output/_audit/
+output/*.log
+manual_html/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Office 临时文件
+~$*
+.~lock.*
+
+# 系统文件
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# 编辑器
+.vscode/
+.idea/
